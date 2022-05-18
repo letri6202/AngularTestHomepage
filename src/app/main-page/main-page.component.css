@@ -1,0 +1,32 @@
+.allbuttons {
+  background-color: rgb(255, 255, 255);
+  height: 30vh;
+  width: 100vw;
+  display: relative;
+  text-align: center;
+}
+
+.allbuttons button {
+  position: relative;
+  border-radius: 4px;
+  background-color: #7bc9cf;
+  border: 2px solid black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1vw;
+  padding: 20px 20px;
+  width: 200px;
+  transition: all 0.05s;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.signin {
+  display: relative;
+  text-align:center;
+}
